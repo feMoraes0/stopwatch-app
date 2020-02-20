@@ -1,16 +1,33 @@
-# stopwatch_app
+<h1 align="center">Stopwatch App</h1>
 
-A new Flutter project.
+A stopwatch helps you track the time you spent on activities.
 
-## Getting Started
+## User Stories
+-   [ ] User can `start` a clock
+-   [ ] User can `stop` the clock
+-   [ ] When the clock is `stopped` the user can click `start` again and the clock will continue counting up
+-   [ ] User can `restart` the clock
 
-This project is a starting point for a Flutter application.
+## How to use
+To clone and run this application, you'll need [Git](https://git-scm.com/downloads) and [Flutter](https://flutter.dev/docs/get-started/install) installed on your computer. From your command line:
 
-A few resources to get you started if this is your first Flutter project:
+```
+# Clone this repository
+$ git clone https://github.com/feMoraes0/stopwatch-app.git
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+# Go into the repository
+$ cd stopwatch-app
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Install dependencies
+$ flutter packages get
+
+# Run the app
+$ flutter run
+```
+
+## Credits 
+- [Project specifications](https://github.com/florinpop17/app-ideas/blob/master/Projects/1-Beginner/Stopwatch-App.md)
+
+## Contact
+  - <a target="_blank" href="https://www.linkedin.com/in/fernando-moraes-48a26916a/">LinkedIn</a>
+  - <a target="_blank" href="mailto:fernandomoraes.lopes@gmail.com">E-mail</a>
