@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:feather_icons_flutter/feather_icons_flutter.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -43,7 +42,7 @@ class _HomeState extends State<Home> {
                     padding: const EdgeInsets.all(5.0),
                     decoration: BoxDecoration(
                       border: Border.all(
-                        color: Colors.white,
+                        color: Colors.white60,
                         width: 2.0,
                       ),
                       borderRadius: BorderRadius.circular(
@@ -64,9 +63,9 @@ class _HomeState extends State<Home> {
                       ),
                       child: Center(
                         child: Icon(
-                          FeatherIcons.rotateCw,
+                          Icons.refresh,
                           color: Colors.white,
-                          size: 30.0,
+                          size: 40.0,
                         ),
                       ),
                     ),
@@ -75,7 +74,7 @@ class _HomeState extends State<Home> {
                     padding: const EdgeInsets.all(5.0),
                     decoration: BoxDecoration(
                       border: Border.all(
-                        color: Color.fromRGBO(174, 83, 169, 1.0),
+                        color: Color.fromRGBO(174, 83, 169, 0.6),
                         width: 2.0,
                       ),
                       borderRadius: BorderRadius.circular(
@@ -96,9 +95,9 @@ class _HomeState extends State<Home> {
                       ),
                       child: Center(
                         child: Icon(
-                          FeatherIcons.play,
+                          Icons.play_arrow,
                           color: Colors.white,
-                          size: 40.0,
+                          size: 60.0,
                         ),
                       ),
                     ),
@@ -107,7 +106,7 @@ class _HomeState extends State<Home> {
                     padding: const EdgeInsets.all(5.0),
                     decoration: BoxDecoration(
                       border: Border.all(
-                        color: Colors.white,
+                        color: Colors.white60,
                         width: 2.0,
                       ),
                       borderRadius: BorderRadius.circular(
@@ -128,9 +127,9 @@ class _HomeState extends State<Home> {
                       ),
                       child: Center(
                         child: Icon(
-                          FeatherIcons.flag,
+                          Icons.flag,
                           color: Colors.white,
-                          size: 30.0,
+                          size: 40.0,
                         ),
                       ),
                     ),
