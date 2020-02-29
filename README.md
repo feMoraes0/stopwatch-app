@@ -8,6 +8,11 @@ A stopwatch helps you track the time you spent on activities.
 -   [x] When the clock is `stopped` the user can click `start` again and the clock will continue counting up
 -   [x] User can `restart` the clock
 
+## Bonus features
+
+-   [ ] User can create `laps` - these will be displayed on the screen
+-   [ ] User can clear all the laps
+
 ## How to use
 To clone and run this application, you'll need [Git](https://git-scm.com/downloads) and [Flutter](https://flutter.dev/docs/get-started/install) installed on your computer. From your command line:
 
